@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.3+" codebase="http://localhost:8080/" href="test.jnlp">
+   <information>
+   <title>Jnlp Testing</title>
+   <vendor>Ugurcan</vendor>
+   <homepage href="http://localhost:8080/" />
+   <description>Testing Testing</description>
+   <offline-allowed />
+    </information>
+    <security>
+      <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.6+" />
+        <jar href="yazlabchartlib.jar" />
+        <jar href="YazLabWebApp.jar" />
+        <jar href="postgresql-8.3-603.jdbc3.jar" />
+    </resources>
+    <application-desc main-class="yazlabwebappbar.Main" />
+</jnlp>

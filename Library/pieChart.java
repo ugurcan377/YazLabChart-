@@ -18,6 +18,8 @@ import java.io.File;
 /**
  *
  * @author ugurcan
+ * Took some help and code from this link
+ * http://cs.fit.edu/~ryan/java/applets/piechart/PieChart-java.html
  */
 public class pieChart extends JPanel{
     String[] name;

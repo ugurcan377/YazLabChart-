@@ -9,6 +9,7 @@ import javax.swing.*;
 /**
  *
  * @author ugurcan
+ * took some help and code from http://www.roseindia.net/java/example/java/swing/draw-simple-bar-chart.shtml
  */
 public class barChart extends JPanel {
 private double[] values;

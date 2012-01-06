@@ -29,7 +29,7 @@ public class yazLabChartMain extends JFrame{
         Bar,Pie;
     }
 
-    public int topNCount = 10;
+    public int topNCount = 1000;
     public Object dataSource;
     public ChartType chartType = ChartType.Pie;
     int cx=0,cy=0;

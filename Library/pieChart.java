@@ -32,7 +32,7 @@ public class pieChart extends JPanel{
     int ly=0;
     int total;
 
-    Color[] colors = {Color.BLUE,Color.CYAN,Color.GREEN,Color.MAGENTA,Color.ORANGE,Color.RED,Color.YELLOW,Color.PINK,Color.GRAY,Color.DARK_GRAY,Color.LIGHT_GRAY};
+    Color[] = {Color.BLUE,Color.CYAN,Color.GREEN,Color.MAGENTA,Color.ORANGE,Color.RED,Color.YELLOW,Color.PINK,Color.GRAY,Color.DARK_GRAY,Color.LIGHT_GRAY};
 
 
     public pieChart(String[] nm, int[] vls,int lm, int cnt,int tl){
@@ -80,7 +80,6 @@ public class pieChart extends JPanel{
             x = (getSize().width - width ) /2 ;
             }
 
-// Center of pie (cx, cy are global variables)
             cx = x + width/2;
             cy = y + height/2;
             final int radius = width/2;
@@ -91,7 +90,7 @@ public class pieChart extends JPanel{
             int incLabelAngle= (int) (angle[0]/2);
              for(i=0; i < sliceCount; i++) {
   sweepAngle = (int) Math.round(angle[i]);
-  g.setColor((Color)colors[i]);
+  g.setColor((Color)colors[i%10]);
 
 
       if (i==(sliceCount-1)){

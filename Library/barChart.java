@@ -77,7 +77,7 @@ private double[] values;
         height = -height;
       }
 
-      graphics.setColor((Color)colors[j]);
+      graphics.setColor((Color)colors[j%10]);
       graphics.fillRect(valueP, valueQ, barWidth - 2, height);
       graphics.setColor(Color.black);
       graphics.drawRect(valueP, valueQ, barWidth - 2, height);
